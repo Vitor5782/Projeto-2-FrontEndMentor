@@ -28,13 +28,15 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-![Este é o modelo do meu site em um desktop](src/images/Animacao1.gif)
-![Este é o modelo do meu site em um celular](src/images/Animacao2.gif)
+Este é o modelo do meu site em um desktop
+![](src/images/Animacao1.gif)
+Este é o modelo do meu site em um celular
+![](src/images/Animacao2.gif)
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/Vitor5782/Projeto-2-FrontEndMentor](https://github.com/Vitor5782/Projeto-2-FrontEndMentor)
+- Live Site URL: [https://vitor5782.github.io/Projeto-2-FrontEndMentor/](https://vitor5782.github.io/Projeto-2-FrontEndMentor/)
 
 ## My process
 
