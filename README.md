@@ -28,9 +28,10 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-Este é o modelo do meu site em um desktop
+Este é o modelo do meu site em um desktop<br><br>
 ![](src/images/Animacao1.gif)
-Este é o modelo do meu site em um celular
+<br><br>
+Este é o modelo do meu site em um celular<br><br>
 ![](src/images/Animacao2.gif)
 
 ### Links
