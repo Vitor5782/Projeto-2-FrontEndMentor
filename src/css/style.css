@@ -1,0 +1,143 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.rodape-desafio{
+    display: flex;
+    justify-content: flex-start;
+    border-top: solid 1px;
+    border-color: hsl(215, 32%, 27%);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container-principal {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 80%;
+    height: 100%;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.container-texto-imagem .imagem-hover img {
+    margin-top: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    position: relative;
+}
+
+.imagem-hover:hover::before {
+    cursor: pointer;
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 95%;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0.5;
+    z-index: 2;
+    border-radius: 15px;
+    margin-top: 4%;
+}
+
+.imagem-hover:hover::after {
+    cursor: pointer;
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/icon-view.svg);
+}
+
+.container-texto-imagem .imagem-hover {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.container-texto-imagem .container-texto {
+    text-align: left;
+    margin: 5% 0 5% 5%;
+}
+
+.container-texto-imagem .container-texto h1 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 3%;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.container-texto-imagem .container-texto h1:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.container-texto-imagem .container-texto p {
+    color: hsl(215, 24%, 38%);
+    font-size: 1.5rem;
+}
+
+.container-de-span {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.container-de-span strong {
+    color: hsl(178, 100%, 50%);
+}
+
+.container-de-span span {
+    color: hsl(215, 24%, 38%);
+}
+
+.container-rodape {
+    display: flex;
+    align-items: center;
+    margin: 3%;
+}
+
+.container-rodape img {
+    width: 10%;
+    height: auto;
+    margin-right: 5%;
+    border: solid white 1px;
+    border-radius: 100%;
+}
+
+.container-rodape {
+    color: hsl(215, 24%, 38%);
+}
+.container-rodape a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+        
+}
+.container-rodape a:hover{
+    color: hsl(178, 100%, 50%);
+}
+.rodape-frontend{
+   text-align: center;
+   color: #fff;
+}
+.rodape-frontend a{
+    color: #fff;
+}
+.rodape-frontend a:hover{
+    color: #ffd500;
+}

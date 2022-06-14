@@ -1,0 +1,11 @@
+@media (max-width: 768px) {  
+    .container-principal{
+        margin-left: 10%;
+    }
+    .container-principal .container-texto h1{
+        font-size: 1.5rem;
+    }
+    .container-principal .container-texto p{
+        font-size: 1rem;
+    }    
+}
